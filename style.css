@@ -1,0 +1,70 @@
+<style>
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+        background-size: cover;
+    background-repeat:no-repeat;
+    font-family: sans serif;
+}
+
+span{
+    
+    padding: 15px;
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px #000000;
+}
+
+.nav{
+    background-color: green;
+    text-align: center;
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.nav ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .nav ul li:hover{
+    background-color: #29FF21;
+    border-radius: 3px;
+}
+
+
+
+
+    img{
+    
+border: 5px solid green;
+    border-radius: 50px;
+    
+}
+
+h1{
+padding: 15px;
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 5px #000000;
+    }
+</style>
